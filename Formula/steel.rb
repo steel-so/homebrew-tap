@@ -2,28 +2,28 @@
 class Steel < Formula
   desc "Steel no terminal: login, API v1, webhooks e MCP"
   homepage "https://github.com/steel-so/steel-cli"
-  version "0.1.0"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.0/steel-darwin-arm64.tar.gz"
-      sha256 "a4bc427ff98cf3bb7d2e420e7f5a37c9a56f197fab970df95e43fa0f3fbf0c4a"
+      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.1/steel-darwin-arm64.tar.gz"
+      sha256 "1dfbfeff9f79165b22cc9532435ba0d5f55df6e430d0efdc43c1a4607ef88cd6"
     end
     on_intel do
-      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.0/steel-darwin-x64.tar.gz"
-      sha256 "a96516384134a55bddb03de01f113f2dec718361c5f8d8789745c7923843613b"
+      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.1/steel-darwin-x64.tar.gz"
+      sha256 "b0a85fddaa5dc326d91d1d512e7c7ecfb9b27912999178a8f02157b54f075231"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.0/steel-linux-arm64.tar.gz"
-      sha256 "5687dd9dbe5853cb071d5415239943411635fbdad2089dc1315d40fea362fee7"
+      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.1/steel-linux-arm64.tar.gz"
+      sha256 "bdb5f719d0f9e8cc9589c9c46fba596ac5a461bcb19ae20b613e0eea74ff6534"
     end
     on_intel do
-      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.0/steel-linux-x64.tar.gz"
-      sha256 "3f8521161125f5dcd4b905ba5538aadce8ef0de3768e74ad6d1512cfebdd6f34"
+      url "https://github.com/steel-so/steel-cli/releases/download/v0.1.1/steel-linux-x64.tar.gz"
+      sha256 "670b3e8793bd61d8aacc1285199c7e3e16a0ecb4dda898d7f5baaa53c18cd51b"
     end
   end
 
